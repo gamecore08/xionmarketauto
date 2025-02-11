@@ -1,5 +1,5 @@
 {
-  "Name": "XION Buy & Sell",
+  "Name": "XION TESTNET BUY & SELL",
   "CreationDate": "2025-2-11",
   "Commands": [
     {
@@ -16,8 +16,14 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button[2]",
+      "Target": "xpath=//*[@id=\"trade\"]/div[2]/button",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"trade\"]/div[2]/button",
+        "xpath=//button[@type='button']",
+        "xpath=//form/div[2]/button",
+        "css=#trade > div.d-flex.mb-3.justify-content-between > button.outcomes.yes.me-1.active"
+      ],
       "Description": ""
     },
     {
@@ -30,6 +36,11 @@
       "Command": "click",
       "Target": "xpath=//*[@id=\"trade\"]/div[5]/button",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"trade\"]/div[5]/button",
+        "xpath=//div[5]/button",
+        "css=#trade > div.d-flex.w-100.align-items-center.justify-content-end.percent-hold > button:nth-child(1)"
+      ],
       "Description": ""
     },
     {
@@ -42,6 +53,12 @@
       "Command": "click",
       "Target": "xpath=//*[@id=\"trade\"]/div[6]/button",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"trade\"]/div[6]/button",
+        "xpath=//button[@type='submit']",
+        "xpath=//div[6]/button",
+        "css=#trade > div.my-2 > button"
+      ],
       "Description": ""
     },
     {
@@ -54,6 +71,100 @@
       "Command": "click",
       "Target": "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
+        "xpath=//button[@type='button']",
+        "xpath=//div[3]/button",
+        "css=#root > main > div.xion-modal > div > div.xion-modal-body > div:nth-child(3) > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button[2]",
+        "xpath=//button[2]",
+        "css=#root > main > div.body > div > div > div.col-lg-5.my-2.px-3.px-md-5.order-2.order-md-1 > div > div > div:nth-child(2) > div.amm-head > button.amm-sell.mx-2"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[2]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"trade\"]/div[2]/button",
+        "xpath=//button[@type='button']",
+        "xpath=//form/div[2]/button",
+        "css=#trade > div.d-flex.mb-3.justify-content-between > button.outcomes.yes.me-1.active"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[5]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"trade\"]/div[5]/button",
+        "xpath=//div[5]/button",
+        "css=#trade > div.d-flex.w-100.align-items-center.justify-content-end.percent-hold > button:nth-child(1)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[6]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"trade\"]/div[6]/button",
+        "xpath=//button[@type='submit']",
+        "xpath=//div[6]/button",
+        "css=#trade > div.my-2 > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
+        "xpath=//button[@type='button']",
+        "xpath=//div[3]/button",
+        "css=#root > main > div.xion-modal > div > div.xion-modal-body > div:nth-child(3) > button"
+      ],
       "Description": ""
     },
     {
@@ -66,54 +177,11 @@
       "Command": "click",
       "Target": "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button",
       "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "2000",
-      "Value": "",
-      "Description": "Jeda 2 detik agar halaman termuat sempurna."
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"trade\"]/div[2]/button[2]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "2000",
-      "Value": "",
-      "Description": "Jeda 2 detik agar halaman termuat sempurna."
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"trade\"]/div[5]/button",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "2000",
-      "Value": "",
-      "Description": "Jeda 2 detik agar halaman termuat sempurna."
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"trade\"]/div[6]/button",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "2000",
-      "Value": "",
-      "Description": "Jeda 2 detik agar halaman termuat sempurna."
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
-      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button",
+        "xpath=//div[2]/div/button",
+        "css=#root > main > div.body > div > div > div.col-lg-5.my-2.px-3.px-md-5.order-2.order-md-1 > div > div > div:nth-child(2) > div.amm-head > button.amm-buy.mx-2"
+      ],
       "Description": ""
     }
   ]
