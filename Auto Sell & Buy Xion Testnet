@@ -1,0 +1,120 @@
+{
+  "Name": "XION Buy & Sell",
+  "CreationDate": "2025-2-11",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://testnet.xionmarkets.com/market/xion1x89jut7kersq6nws063v2wdnl5l468j0vrpzxh0d7ezv0f9yn4qshyatss/1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[5]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[6]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div/div[2]/div/div/div[2]/div/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[2]/button[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[5]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"trade\"]/div[6]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Jeda 2 detik agar halaman termuat sempurna."
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div/div/div[2]/div[3]/button",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
